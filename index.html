@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash EMDR טיפול</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- להוסיף לפני stage1 -->
+        <div id="intro" class="stage">
+            <h1>טכניקת הפלאש - Flash EMDR</h1>
+            <div class="intro-content">
+                <div class="intro-section">
+                    <h2>מהי טכניקת הפלאש?</h2>
+                    <p>טכניקת הפלאש היא שיטה חדשנית בטיפול EMDR, המיועדת לעיבוד זיכרונות טראומטיים באופן עדין ויעיל.</p>
+                    
+                    <div class="benefits-box">
+                        <h3>יתרונות הטכניקה:</h3>
+                        <ul>
+                            <li>מהירה ופחות מכאיבה מ-EMDR מסורתי</li>
+                            <li>מפחיתה משמעותית את עוצמת הזיכרונות המטרידים</li>
+                            <li>מתאימה למטופלים בכל הגילאים</li>
+                            <li>יעילה במיוחד למטופלים שחוששים מגישה ישירה לזיכרון הטראומטי</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="process-overview">
+                    <h3>איך זה עובד?</h3>
+                    <div class="process-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <p>זיהוי זיכרון מטריד ומדידת רמת מצוקה</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <p>יצירת עוגן חיובי - בחירת זיכרון או מחשבה חיובית</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <p>תהליך טיפולי משולב של תיפוף, מצמוץ והבזק קצר</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <p>מדידה חוזרת של רמת המצוקה לבדיקת השיפור</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">5</div>
+                            <p>אפשרות לחזור על התהליך להפחתה נוספת</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="start-section">
+                    <p class="important-note">
+                        <i class="fas fa-exclamation-triangle warning-icon"></i>
+                        חשוב לציין: אפליקציה זו היא כלי עזר בלבד ואינה מחליפה טיפול מקצועי.
+                    </p>
+                    
+                    <div class="learn-more">
+                        <a href="https://flashtechnique.com/wp/" target="_blank" class="learn-more-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            למידע נוסף על טכניקת הפלאש
+                        </a>
+                    </div>
+
+                    <button id="startIntro" class="primary-button">התחל בתהליך</button>
+                </div>
+            </div>
+        </div>
+        <!-- שלבי טיפול -->
+        <div id="stage1" class="stage">
+            <h1>ברוכים הבאים לטיפול Flash EMDR</h1>
+            <div class="content">
+                <div class="welcome-message">
+                    <i class="fas fa-heart welcome-icon"></i>
+                    <p>התהליך הזה נועד לעזור לך להפחית תחושת מצוקה הקשורה לזיכרונות מטרידים בדרך עדינה.</p>
+                </div>
+
+                <div class="preparation-box">
+                    <h3>
+                        <i class="fas fa-check-circle"></i>
+                        לפני שנתחיל:
+                    </h3>
+                    <div class="prep-items">
+                        <div class="prep-item">
+                            <i class="fas fa-couch"></i>
+                            <span>מצא מקום נוח לשבת</span>
+                        </div>
+                        <div class="prep-item">
+                            <i class="fas fa-volume-mute"></i>
+                            <span>ודא שאתה נמצא בסביבה שקטה</span>
+                        </div>
+                        <div class="prep-item">
+                            <i class="fas fa-clock"></i>
+                            <span>הקדש כ-15 דקות לתהליך המלא</span>
+                        </div>
+                        <div class="prep-item">
+                            <i class="fas fa-brain"></i>
+                            <span>היכנס למצב רגיעה</span>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="startButton" class="primary-button">
+                    <i class="fas fa-play"></i>
+                    <span>אני מוכן להתחיל</span>
+                </button>
+            </div>
+        </div>
+        <div id="stage2" class="stage">
+            <h1>זיהוי זיכרון מטריד</h1>
+            <div class="content">
+                <div class="memory-input">
+                    <h3>בחר את הזיכרון שתרצה לעבוד עליו</h3>
+                    <div class="optional-input">
+                        <label for="traumaticMemory">
+                            <i class="fas fa-pencil-alt"></i>
+                            לבחירתך, תוכל לכתוב אותו בקצרה (לא חובה)
+                        </label>
+                        <textarea 
+                            id="traumaticMemory" 
+                            rows="3" 
+                            placeholder="תיאור קצר של הזיכרון..."></textarea>
+                    </div>
+                </div>
+
+                <div class="distress-level">
+                    <h3>רמת מצוקה נוכחית</h3>
+                    <p class="scale-description">עד כמה הזיכרון הזה מטריד אותך כרגע?</p>
+                    
+                    <div class="slider-container">
+                        <input type="range" id="distressLevel" min="0" max="10" value="5">
+                        <div class="slider-labels">
+                            <span>0</span>
+                            <span>5</span>
+                            <span>10</span>
+                        </div>
+                        <div class="distress-scale">
+                            <span>לא מטריד</span>
+                            <span>מטריד מאוד</span>
+                        </div>
+                        <p class="selected-value">
+                            <i class="fas fa-thermometer-half"></i>
+                            רמת מצוקה נבחרת: <span id="distressValue">5</span>
+                        </p>
+                    </div>
+                </div>
+
+                <button id="stage2Next" class="primary-button">
+                    <i class="fas fa-arrow-left"></i>
+                    המשך לשלב הבא
+                </button>
+            </div>
+        </div>
+        <div id="stage3" class="stage">
+            <h1>יצירת נקודת עוגן חיובית</h1>
+            <div class="content">
+                <div class="positive-memory-intro">
+                    <i class="fas fa-sun"></i>
+                    <p>בחר זיכרון או מחשבה חיובית שגורמים לך להרגיש טוב ורגוע</p>
+                </div>
+                
+                <div class="memory-input">
+                    <label for="positiveMemory">
+                        <i class="fas fa-feather"></i>
+                        תאר את הזיכרון החיובי שלך:
+                    </label>
+                    <textarea 
+                        id="positiveMemory" 
+                        rows="4" 
+                        placeholder="תאר את הזיכרון או המחשבה החיובית שגורמים לך להרגיש טוב..."
+                        required></textarea>
+                </div>
+
+                <div class="focus-exercise">
+                    <h3>
+                        <i class="fas fa-brain"></i>
+                        תרגיל התמקדות קצר
+                    </h3>
+                    <div class="exercise-steps">
+                        <div class="step-item">
+                            <div class="step-content">
+                                <span class="step-number">1</span>
+                                <span class="step-text">קרא שוב את מה שכתבת</span>
+                            </div>
+                            <i class="fas fa-book-reader step-icon"></i>
+                        </div>
+                        <div class="step-item">
+                            <div class="step-content">
+                                <span class="step-number">2</span>
+                                <span class="step-text">עצום את העיניים</span>
+                            </div>
+                            <i class="fas fa-eye-slash step-icon"></i>
+                        </div>
+                        <div class="step-item">
+                            <div class="step-content">
+                                <span class="step-number">3</span>
+                                <span class="step-text">התמקד בפרטים שמרגיעים אותך בזיכרון זה</span>
+                            </div>
+                            <i class="fas fa-bullseye step-icon"></i>
+                        </div>
+                        <div class="step-item">
+                            <div class="step-content">
+                                <span class="step-number">4</span>
+                                <span class="step-text">הרגש את התחושות הטובות שעולות</span>
+                            </div>
+                            <i class="fas fa-heart step-icon"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="stage3Next" class="primary-button">
+                    <i class="fas fa-arrow-left"></i>
+                    המשך לשלב הבא
+                </button>
+            </div>
+        </div>
+        <div id="stage4" class="stage active">
+            <div class="treatment-flow">
+                <!-- הנחיות מקדימות והתחלה -->
+                <div id="pretreatment-section">
+                    <div class="preparation-instructions">
+                        <h3>לפני שנתחיל בטיפוף:</h3>
+                        <div class="instructions-list">
+                            <div class="instruction-item">
+                                <i class="fas fa-couch"></i>
+                                <span>שב בנינוחות על כיסא יציב</span>
+                            </div>
+                            <div class="instruction-item">
+                                <i class="fas fa-hands"></i>
+                                <span>הנח את ידיך על החזה בצורת X (חיבוק פרפר)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button id="startTreatment" class="primary-button">
+                        <i class="fas fa-play control-icon"></i>
+                        <span>אני מוכן!</span>
+                    </button>
+                </div>
+
+                <!-- אזור הטיפול (יו רק אחרי לחיצה על התחל) -->
+                <div id="treatment-section" style="display: none;">
+                    <!-- ציר התקדמות -->
+                    <div class="progress-timeline">
+                        <div class="timeline-step" data-phase="1">
+                            <div class="step-dot"></div>
+                            <span>טיפוף ראשוני</span>
+                        </div>
+                        <div class="timeline-step" data-phase="2">
+                            <div class="step-dot"></div>
+                            <span>סטים של טיפוף ומצמוץ</span>
+                        </div>
+                        <div class="timeline-step" data-phase="3">
+                            <div class="step-dot"></div>
+                            <span>הבזק מהיר</span>
+                        </div>
+                        <div class="timeline-step" data-phase="4">
+                            <div class="step-dot"></div>
+                            <span>סטים סופיים</span>
+                        </div>
+                    </div>
+
+                    <!-- אזור הטיפול -->
+                    <div class="treatment-area">
+                        <div class="current-instructions" id="currentInstruction">
+                            נתחיל בטיפוף עדין עם הזיכרון החיובי
+                        </div>
+
+                        <div class="memory-box">
+                            <h3>הזיכרון החיובי שלך:</h3>
+                            <p id="displayPositiveMemory"></p>
+                        </div>
+
+                        <div class="animation-area">
+                            <div class="heart-container">
+                                <div class="heart-animation" id="heartAnimation">
+                                    <svg class="heart" viewBox="0 0 24 24">
+                                        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"></path>
+                                    </svg>
+                                    <span class="timer-in-heart" id="processTimer">20</span>
+                                </div>
+                            </div>
+                            <div class="eye-animation" id="eyeAnimation"></div>
+                        </div>
+
+                        <div class="treatment-controls">
+                            <button id="pauseTreatment" class="control-button pause-button">
+                                <i class="fas fa-pause control-icon"></i>
+                                <span>השהה טיפול</span>
+                            </button>
+                            <button id="endTreatment" class="control-button end-button">
+                                <i class="fas fa-door-open control-icon"></i>
+                                <span>צא מהטיפול</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="stage5" class="stage">
+            <h1>מדידת רמת מצוקה מחודשת</h1>
+            <div class="content">
+                <div class="distress-level-comparison">
+                    <div class="previous-level">
+                        <h3>רמת המצוקה בתחילת הטיפול</h3>
+                        <div class="level-display" id="previousDistressLevel"></div>
+                    </div>
+                    
+                    <div class="current-level">
+                        <h3>רמת המצוקה כעת</h3>
+                        <p>עד כמה הזיכרון מטריד אותך כרגע? דרג בסולם של 0 עד 10</p>
+                        <div class="slider-container">
+                            <input type="range" id="newDistressLevel" min="0" max="10" value="5">
+                            <div class="slider-labels">
+                                <span>0</span>
+                                <span>5</span>
+                                <span>10</span>
+                            </div>
+                            <p class="selected-value">רמת מצוקה נוכחית: <span id="newDistressValue">5</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-section" style="display: none;">
+                    <div class="results-box">
+                        <h3>תוצאות הטיפול</h3>
+                        <div class="results-content">
+                            <p>רמת המצוקה <span id="distressReduction">עלתה ב2</span> נקודות</p>
+                            <div class="recommendation"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="stage5Next" class="primary-button">המשך לסיכום</button>
+            </div>
+        </div>
+        <div id="stage6" class="stage">
+            <h1>סיכום הטיפול</h1>
+            <div class="content">
+                <div class="summary-container">
+                    <div class="completion-message">
+                        <i class="fas fa-check-circle"></i>
+                        <h2>כל הכבוד!</h2>
+                        <p>השלמת בהצלחה את תהליך הטיפול</p>
+                    </div>
+
+                    <div class="relaxation-section">
+                        <h3>לפני שנסיים</h3>
+                        <p>קח כמה נשימות עמוקות והרגע</p>
+                        <div class="breathing-exercise">
+                            <div class="breath-animation"></div>
+                            <p>שאף ונשוף לאט</p>
+                        </div>
+                    </div>
+
+                    <div class="recommendations">
+                        <h3>המלות להמשך</h3>
+                        <ul>
+                            <li>
+                                <i class="fas fa-redo"></i>
+                                <span>ניתן לחזור על התרגיל בכל פעם שתרגיש צורך</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-user-md"></i>
+                                <span>אם המצוקה עדיין משמעותית, מומלץ לפנות למטפל מוסמך</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-heart"></i>
+                                <span>המשך להשתמש בזיכרון החיובי כעוגן מרגיע</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button id="restartButton" class="primary-button">
+                        <i class="fas fa-redo"></i>
+                        התחל טיפול חדש
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="developer-tag">
+        <span>פותח ע"י שולמית</span>
+        <a href="https://wa.me/972527609961" target="_blank" class="whatsapp-link">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
